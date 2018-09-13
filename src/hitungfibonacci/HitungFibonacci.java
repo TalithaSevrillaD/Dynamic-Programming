@@ -1,4 +1,5 @@
 package hitungfibonacci;
+import java.util.Scanner;
 public class HitungFibonacci {
     public static void tampilJudul (String identitas) 
     {
@@ -11,6 +12,15 @@ public class HitungFibonacci {
     {
         String identitas = "Talitha Sevrilla Duriga / XRPL2 / 35";
         tampilJudul(identitas);
+        
+        int n = tampilInput();
+    }
+    public static int tampilInput() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Bilangan ke-:");
+        int n = scanner.nextInt();
+        
+        return n;
     }
     
 }
