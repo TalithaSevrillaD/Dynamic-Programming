@@ -23,7 +23,7 @@ public class Tugas02 {
             bayar += jumlah*nominal[i];
             char barang = jenis[i];
             
-            System.out.println("Jenis barang" + barang + "berat" + kilogram[i] + "kg" + ":" + jumlah);
+            System.out.println("Jenis barang " + barang + " berat " + kilogram[i] + " kg " + " : " + jumlah);
         }
         System.out.println("Bayaran yang didapat : " + bayar);
     }
